@@ -20,10 +20,13 @@
 
 .intro-text {
     text-align: left;
-    padding-left: 300px;
+    display: inline-block;
     font-family:  "Garamond", 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #458790;
+}
+
+.border {
     margin-left: 300px;
     margin-right: 300px;
     border-style: dashed;
@@ -46,8 +49,8 @@
 }
 
 .skills-container {
-    padding-left: 450px;
-    text-align: left;
+    text-align: center;
+    display: inline-block;
     font-family:  "Garamond", 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #458790;
@@ -59,37 +62,26 @@
     font-size: 14px;
 }
 
-.scratch {
+.skill-image {
     display: inline-block;
-    padding-left: 35px;
-    height: 20%;
-    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 10%;
+    border-radius: 5%;
 }
 
 .cplusplus {
     display: inline-block;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    height: 10%;
-    width: 10%;
-}
-
-.html-css {
-    display: inline-block;
-    height: 20%;
-    width: 20%;
-}
-
-.typing {
-    display: inline-block;
-    padding-left: 200px;
-    height: 20%;
-    width: 20%;
+    padding-right: auto;
+    padding-bottom: auto;
+    height: 5%;
+    width: 5%;
 }
 
 .project-detail {
     text-align: left;
-    padding-left: 450px;
+    display: inline-block;
     font-family:  "Garamond", 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #458790;
@@ -99,33 +91,33 @@
     display: inline-block;
     height: 30%;
     width: 30%;
-    margin-left: 320px;
 }
 
-.project {
-    padding-top: 5px;
+.project-border {
+    text-align: center;
     margin-left: 300px;
     margin-right: 300px;
     border-style: double;
-    border-width: 4px;
+    border-width: 5px;
     border-color: #B1D8B7;
     border-radius: 15px;
 }
 
 .hobbies-container {
-    text-align: left;
-    padding-left: 450px;
+    text-align: center;
+    display: inline-block;
     font-family:  "Garamond", 'Times New Roman', Times, serif;
     font-size: 18px;
     color: #458790;
 }
 
 .hobby-image {
-    margin-left: 200px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 20%;
     width: 20%;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .contact-img {
