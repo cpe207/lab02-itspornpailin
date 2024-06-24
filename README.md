@@ -7,5 +7,5 @@
 
  <strong>GITHUB PAGE URL : https://cpe207.github.io/lab02-itspornpailin/</strong>
 
- Name: Pornpailin Jaowatthanaphong
+ Name: Pornpailin Jaowatthanaphong <br>
  Student ID: 660610777
